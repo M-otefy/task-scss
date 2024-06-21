@@ -1,0 +1,628 @@
+$color:#F5F7FA;
+$color-2:rgba(76, 175, 79, 1);
+$color-3:#FFFFFF;
+$color-4:#4D4D4D;
+$color-5:#717171;
+$color-6:#18191F;
+$size-64:64px;
+$size-16:16px;
+$size-22:22px;
+$size-16:16px;
+$size-32:32px;
+$size-18:18px;
+$size-12:12px;
+$size-28:28px;
+$size-36:36px;
+$size-14:14px;
+
+
+$primary:$color-3;
+$success:$color-2;
+$secondary:$color;
+$dark:$color-4;
+$gray:$color-5;
+$black:$color-6;
+
+.height{
+    height: 366px;
+}
+#navbarSupportedContent a{
+    color:$color-6;
+}
+
+
+#section-2{
+    p{
+        color: $color-5;
+    }
+    h1{
+        font-size: 56px;
+    }
+    span{
+        font-size: 56px;
+    }
+}
+#section-3{
+    h2{
+        text-align: center
+    }
+    h3{
+        font-size: 28px;
+        text-align: center
+    }
+    h4{
+        font-size: 28px;
+        text-align: center
+    }
+    p{
+        font-size: 18px;
+        color: $color-5;
+    }
+    h1{
+        font-size: 36px;
+        color: $color-4;
+    }
+}
+#paragraph{
+    font-size: 16px;
+}
+#section-4{
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 36px;
+        color: $color-2;
+    }
+    h6{
+        font-size: 16px;
+    }
+    span{
+        font-size: 28px; 
+        color: $color-4;
+        font-weight: 700;
+    }
+    p{
+        font-size: 16px;
+        color: $color-5;
+    }
+}
+
+#section-5{
+    
+    h2{
+        color: $color-4;
+    }
+    p{
+        font-size: 14px;
+        color: $color-5;
+    }
+}
+#icons{
+    width: 493px;
+    justify-content: center;
+    align-items: center;
+}
+#section-6{
+    p{
+        font-size: 16px;
+        color: $color-5;
+        
+    }
+    span{
+        font-size: $size-16;
+        font-weight: 600;
+        color: #89939E;
+    }
+    a{
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+}
+#section-7 a{
+    text-decoration: none;
+}
+.three-cards{
+    height: 176px;
+    padding: 16px;
+    border-radius: 8px;
+    top: 190px;
+    right: 25.5px;
+    left: 25.5px;
+    bottom: 0;
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+}
+.three-cards p{
+    text-align: center;
+    font-size: $size-18;
+}
+    
+
+#section-8{
+    h1{
+        // font-size: 70px;
+        color: rgba(38, 50, 56, 1);
+    }
+}
+#footer{
+    background-color: rgba(38, 50, 56, 1);
+    h2{
+        font-size: 20px;
+        color: $color-3;
+    }
+    ul{
+        color: $color;
+        font-size: 14px;
+        
+    }
+    .instagram{
+        width: 32px;
+        height: 32px;
+        background-color: #3c464c;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+#footer{
+    input{
+        background: #515b60;
+        border-radius: 8px;
+        width: 255px;
+        height: 40px;
+        color: #D9DBE1;
+        font-size: 14px;
+        padding-left: 12px;
+    }
+     #arwwo-icon{
+        position: relative;
+        width: 255px;
+      }
+      #arwwo-icon svg{
+        position: absolute;
+        top: 11px;
+        right: 25px;
+        bottom: 11px;
+      }
+      
+}
+#logos{
+    width: 176px;
+}
+
+@media screen and (min-width:320px){
+
+    #section-2 h1{
+        font-size: $size-18;
+    }
+    #section-2 span{
+        font-size: $size-18;
+    }
+    #section-2 p{
+        font-size: $size-18;
+        text-align: center;
+    }
+    #section-2 a{
+        font-size: $size-18;
+        display: flex;
+        align-self: center;
+    }
+    #section-2 svg{
+        justify-content: center;
+        align-items: center;
+    }
+    #section-3{
+        font-size:$size-18;
+    }
+    #section-3 span{
+        font-size: $size-18;
+        text-align: center;
+    }
+    #svgs{
+        flex-wrap: wrap;
+    }
+    #section-3 h2{
+        font-size: $size-18;
+        width: 100%;
+    }
+    #section-3 span{
+        font-size: $size-18;
+    }
+    #section-3 h3{
+        font-size: $size-22;
+    }
+    #section-3 p{
+        font-size: $size-18;
+        text-align: center;
+    }
+    #section-3 h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    #paragraph{
+        font-size: 16px;
+    }
+    #section-3 a{
+        align-self: center;
+    }
+    #section-4 h2{
+        font-size: $size-18;
+        text-align: center;
+    }
+    #section-4 h3{
+        font-size: $size-18;
+        text-align: center;
+    }
+    #section-4 span{
+        font-size: $size-18;
+    }
+    #section-4 h6{
+        text-align: center;
+    }
+    #section-4 p{
+        font-size: $size-14;
+    }
+    #section-5 h2{
+        font-size: $size-18;
+        text-align: center;
+    }
+    #section-5 p{
+        font-size: 16px;
+        text-align: center;
+    }
+    #section-5 a{
+        align-self: center;
+    }
+    #icon-6{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #section-6 p{
+        text-align: center;
+    }
+    #section-6 h4{
+        text-align: center;
+        #icons{
+            width: 300px;
+            object-fit: contain;
+        }
+    }
+    #section-7 h2{
+        font-size: $size-18;
+        text-align: center;
+    }
+    #section-7 span{
+        font-size: $size-14;
+        text-align: center;
+    }
+    #cards{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #cards img{
+        width: 300px;
+    }
+    #card-1{
+        margin-bottom: 20px;
+    }
+    #card-2{
+        margin-bottom: 20px;
+    }
+    #card-3{
+        margin-bottom: 30px;
+    }
+    #tesla img{
+        width: 300px;
+    }
+    #section-8 h1{
+        font-size: 24px;
+        padding-top: 25px;
+    }
+    #logos{
+        margin-bottom: 25px;
+    }
+    #footer h2{
+        font-size: $size-18;
+        text-align: center;
+        
+    }
+    #footer ul{
+        font-size: $size-16;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    #sersch-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width:576px){
+    #section-2 h1{
+        font-size: $size-36;
+    }
+    #section-2 span{
+        font-size: $size-36;
+    }
+    #section-2 svg{
+        justify-content: center;
+        align-items: center;
+    }
+    #section-3 h1{
+        font-size: $size-28;
+    }
+    #section-3 p{
+        font-size: $size-16;
+        text-align: center;
+    }
+    #section-4 h2{
+        font-size: $size-32;
+        text-align: center;
+    }
+    #section-4 h3{
+        font-size: $size-32;
+        text-align: center; 
+    }
+    #section-4 h6{
+        text-align: center;
+    }
+    #section-4 span{
+        font-size: $size-22;
+    }
+    #section-5 p{
+        text-align: center;
+    }
+    #icons{
+        width: 493px;
+    }
+    #section-6 h4{
+        text-align: center;
+    }
+    #section-6 span{
+        text-align: center;
+    }
+    #section-6{
+        padding-bottom: 30px;
+    }
+    #section-8 h1{
+        font-size: $size-36;
+    }
+    #heading{
+        align-items: center;
+    }
+    #footer h2{
+        font-size: $size-18;
+    }
+    #footer li{
+        font-size: $size-14;
+    }
+    #logos{
+        margin-bottom: 15px;
+    } 
+    .three-cards{
+        height: 176px;
+        padding: 16px;
+        border-radius: 8px;
+        top: 190px;
+        right: 25.5px;
+        left: 25.5px;
+        bottom: 0;
+        // box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+    }
+}
+
+
+
+@media screen and (min-width:768px){
+    #section-2 a{
+        align-self: flex-start;
+    }
+    #section-2 h1{
+        font-size: 42px;
+    }
+    #section-2 span{
+        font-size: 42px;
+    }
+    #section-2 p{
+        font-size: $size-18;
+    }
+    #section-3 h3{
+        font-size: 34px;
+    }
+    #section-3 h1{
+        font-size: $size-32;
+    }
+    #section-3 h1{
+        font-size: $size-28;
+    }
+    #section-3 p{
+        font-size: $size-14;
+    }
+    #section-3 a{
+        align-self: flex-start;
+    }
+    #section-4 h2{
+        font-size: $size-32;
+    }
+    #section-4 h3{
+        font-size: $size-32;
+    }
+    #section-4 span{
+        font-size: $size-22;
+    }
+    #section-5 h2{
+        font-size: $size-22;
+    }
+    #section-5 a{
+        align-self: flex-start;
+    }
+    .three-cards{
+        height: 176px;
+        padding: 16px;
+        border-radius: 8px;
+        top: 190px;
+        right: 25.5px;
+        left: 25.5px;
+        bottom: 0;
+        // box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+    }
+    #section-6 p{
+        text-align: center;
+    }
+    #section-6 h4{
+        text-align: center;
+    }
+    #section-6 span{
+        text-align: center;
+    }
+    #section-7 span{
+        text-align: center;
+    }
+    #section-7 img{
+        width: 300px;
+    }
+    #last-card{
+        margin-bottom: 70px;
+    }
+    #section-8 h1{
+        font-size: 48px;
+    }
+    #heading{
+        align-items: center;
+    }
+    #logos{
+        margin-bottom: 25px;
+    }
+    #sersch-bar{
+        flex-direction: row;
+        
+    }
+
+}
+@media screen and (min-width:992px){
+
+    #section-3 h3{
+        font-size: $size-32;
+    }
+    #section-3 span{
+        font-size: $size-18;
+    }
+    #tesla img{
+        width: 330px;
+        height: 300px;
+    }
+    #icons{
+        width: 493px;
+    }
+    #section-7 span{
+        text-align: center;
+    }
+    #section-7 img{
+        width: 300px;
+    }
+    .three-cards{
+        height: 176px;
+        padding: 16px;
+        border-radius: 8px;
+        top: 190px;
+        right: 25.5px;
+        left: 25.5px;
+        bottom: 0;
+        // box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+    }
+    #cards{
+        margin-bottom: 50px
+    }
+    #section-8 h1{
+        font-size: $size-64;
+        margin-top: 50px;
+    }
+    #footer ul{
+        font-size: $size-16;
+        align-items: center;
+        // width: 100%;
+        text-align: center;
+    }
+    #sersch-bar{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1200px){
+    #section-3 h3{
+        font-size: $size-32;
+    }
+    #section-3 span{
+        font-size: $size-18;
+    }
+    #tesla img{
+        width: 330px;
+        height: 300px;
+    }
+    #icons{
+        width: 493px;
+    }
+    #section-7 span{
+        font-size: $size-16;
+    }
+    #section-7 h2{
+        font-size: $size-36;
+    }
+    #section-7 img{
+        width: 300px;
+    }
+    .three-cards{
+        height: 176px;
+        padding: 16px;
+        border-radius: 8px;
+        top: 190px;
+        right: 25.5px;
+        left: 25.5px;
+        bottom: 0;
+        // box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+    }
+    #cards{
+        margin-bottom: 50px
+    }
+    #section-8 h1{
+        font-size: 72px;
+        margin-top: 50px;
+    }
+    #card-1{
+        position: relative;
+    }
+    #card-2{
+        position: relative;
+    }
+    #card-3{
+        position: relative;
+    }
+    #section-7{
+        margin-bottom: 100px;
+    }
+    #cards img{
+        width: 368px;
+    }
+    .three-cards{
+        position: absolute;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
